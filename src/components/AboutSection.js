@@ -2,6 +2,7 @@
 import home1 from '../img/home1.png';
 import React from 'react'
 
+// about section 
 const AboutSection = () => {
     return(
         <div>
