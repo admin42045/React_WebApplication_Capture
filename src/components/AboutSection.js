@@ -19,7 +19,7 @@ const AboutSection = () => {
              </div>
          </div>
          <div className="image">
-             <img src={home1} alt="home 1 image" />
+             <img  alt="home1" src={home1}  />
          </div>
         </div>
     )
