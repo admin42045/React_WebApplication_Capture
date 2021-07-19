@@ -15,6 +15,7 @@ const ServicesSection = () => {
                  <div className="cards">
 
 
+                    {/* 01. card */}
                      <div className="card">
                          <div className="icon">
                              <img src={clock} alt="clock" />
@@ -23,6 +24,7 @@ const ServicesSection = () => {
                          <p>A effective way to capture the image of simple way.</p>
                      </div>
 
+                    {/* 02. card */}
                      <div className="card">
                          <div className="icon">
                              <img src={diaphragm} alt="clock" />
@@ -31,6 +33,7 @@ const ServicesSection = () => {
                          <p>A effective way to capture the image of simple way.</p>
                      </div>
 
+                    {/* 03. card */}
                      <div className="card">
                          <div className="icon">
                              <img src={money} alt="clock" />
@@ -39,6 +42,7 @@ const ServicesSection = () => {
                          <p>A effective way to capture the image of simple way.</p>
                      </div>
 
+                    {/* 04. card */}
                      <div className="card">
                          <div className="icon">
                              <img src={teamwork} alt="clock" />
