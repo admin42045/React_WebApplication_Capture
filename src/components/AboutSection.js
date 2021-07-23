@@ -2,27 +2,26 @@
 import home1 from '../img/home1.png';
 import React from 'react'
 
+import {About, Description ,Image} from '../style';
+
 // about section 
 const AboutSection = () => {
     return(
-        <div>
-
-         <div className="description">
+        <About>
+         <Description>
              <div className="title">
                  <div classNam="hide">
-                     <h2>We work to make</h2>
-                 </div>
-                 <div className="hide">
-                     <h2>Your<span>dream</span> come</h2>
+                     <h2>We work to make<br/>
+                     Your<span> dream</span> come</h2>
                  </div>
              <p>Creative the photography dream , option of the jeak.</p>
              <button>Contact Us</button>
              </div>
-         </div>
-         <div className="image">
+         </Description>
+         <Image>
              <img  alt="home1" src={home1}  />
-         </div>
-        </div>
+         </Image>
+        </About>
     )
 }
 

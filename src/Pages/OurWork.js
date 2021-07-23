@@ -59,7 +59,7 @@ const Movie = styled.div`
   padding-bottom: 10rem;
  
   .line {
-    height: 0.4rem;
+    height: 0.2rem;
     background: #ccc;
     margin-bottom: 3rem;
     border-radius: 0.2rem;
