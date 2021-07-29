@@ -1,0 +1,39 @@
+make a folder
+-components
+1)  -AboutSection.js 
+this file css file is style.js which is export and import top side in AboutSection.js file
+
+another make a file GlobalStyle.js file, which is define the globaly and thsi globalstyle file pass as Nav, and Footer file in the App.js file
+
+2) -ServicesSection.js file
+import about, image from the style.js file 
+
+3) FaqSection.js 
+import About from the style.js file
+
+4) Make a Pages folder and inside the pages make another file of AboutUs.js file inside the 
+import three file 
+ -AboutSection
+ -ServicesSection
+ -FaqSection
+
+
+ and also AboutUs.js file import inside App.js which is main file when user click on the caption buttton then this file work execute three file
+
+
+5) Footer.js 
+this file use the styled-components in our file not import any outer side of css
+
+
+6) inside the Pages folder make the OurWork.js file when will user click on the OurWork  button then this file work
+this file use the styled-components in our file not import any outer side of css
+
+
+7) inside the Pages folder make the Contactus.js file when will user click on the ContactUs button then this file work
+this file use the styled-components in our file not import any outer side of css
+
+8) Nav.js - This file basically make for navigaton bar and also using this section routing
+this file use the styled-components in our file not import any outer side of css
+
+
+

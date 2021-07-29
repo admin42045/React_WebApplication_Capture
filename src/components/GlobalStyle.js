@@ -1,5 +1,4 @@
-
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 
@@ -23,7 +22,7 @@ body {
      cursor: pointer;
      background: transparent;
      color: white;
-     transition: all 0.5s ease;
+     transition: all 0.2s ease;
      letter-spacing: 0.1rem;
      &:hover {
          background: #129CF3;

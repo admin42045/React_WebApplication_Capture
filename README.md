@@ -1,6 +1,14 @@
+# How to use this project
+
+-0) after git install in the GitBash terminal press cmd - [git clone 'url'] and press enter
+-1) Make sure node.js is install in your system
+-2) in powershell or terminal press this cmd - npm install
+-3) next cmd - npm start
+
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+-> Note: Not use of bootstarp (This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+)
 
 ## Available Scripts
 

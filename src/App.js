@@ -6,9 +6,10 @@ import GlobalStyle from "./components/GlobalStyle";
 import AboutUs from "./Pages/AboutUs";
 import OurWork from "./Pages/OurWork";
 import ContactUs from "./Pages/ContactUs";
-import Nav from '../src/components/Nav';
+import Nav from "../src/components/Nav";
 
 import { Switch, Route } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <ContactUs />
         </Route>
       </Switch>
+      <Footer />
     </div>
   );
 }
