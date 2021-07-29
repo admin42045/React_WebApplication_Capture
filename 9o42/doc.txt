@@ -35,5 +35,12 @@ this file use the styled-components in our file not import any outer side of css
 8) Nav.js - This file basically make for navigaton bar and also using this section routing
 this file use the styled-components in our file not import any outer side of css
 
+9) movieState.js file this is dummy data API file, inside data put into the Array format
 
+10) MovieDetails.js 
+ this page add into the App.js file 
+
+ 11) make a page animation.js file in src folder
+ and export this file and import into the AboutUs.js file 
+ next add this animation into the OurWork.js file
 

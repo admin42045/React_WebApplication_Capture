@@ -18,7 +18,7 @@ body {
      font-size: 1.1rem;
      border: 0.1rem solid #129CF3;
      border-radius: 0.3rem;
-     padding: 1rem 2rem;
+     padding: 10px 15px;
      cursor: pointer;
      background: transparent;
      color: white;
@@ -33,7 +33,7 @@ body {
      h2 {
          padding-top: 4rem;
          font-weight: lighter;
-         font-size: 3rem;
+         font-size: 2rem;
      }
 
      h3 {

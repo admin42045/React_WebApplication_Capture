@@ -10,6 +10,7 @@ import Nav from "../src/components/Nav";
 
 import { Switch, Route } from "react-router-dom";
 import Footer from "./components/Footer";
+import MovieDetails from "./Pages/MovieDetails";
 
 function App() {
   return (
@@ -20,8 +21,11 @@ function App() {
         <Route path="/" exact>
           <AboutUs />
         </Route>
-        <Route path="/work">
+        <Route path="/work" exact>
           <OurWork />
+        </Route>
+        <Route path="/work/:id">
+          <MovieDetails />
         </Route>
         <Route path="/contact">
           <ContactUs />

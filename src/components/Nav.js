@@ -6,18 +6,19 @@ import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <StyledNav>
-      <h1>
-        <Link to="/">Capture</Link>
-      </h1>
+      <h1>Caption</h1>
       <ul>
-        <li>
-          <Link to="/about">About Us</Link>
+        <li className="li" id="li">
+          <Link to="/">About Us</Link>
+          <div className="line"></div>
         </li>
-        <li>
+        <li className="li">
           <Link to="/work">Our Work</Link>
+          <div className="line"></div>
         </li>
-        <li>
+        <li className="li">
           <Link to="/contact">Contact Us</Link>
+          <div className="line"></div>
         </li>
       </ul>
     </StyledNav>
@@ -30,7 +31,7 @@ const StyledNav = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 10rem;
+  padding: 1rem 4rem;
   background: #5c5a5b;
 
   a {
@@ -45,8 +46,22 @@ const StyledNav = styled.nav`
     list-style: none;
   }
 
-  .logo {
-    font-weight: lighter;
+  .li {
+    border-bottom: 3px solid transparent;
+    &:hover {
+      border-bottom: 3px solid #129cf3;
+    }
+    &#li {
+      border-bottom: 3px solid red;
+    }
+  }
+
+  h1 {
+    margin-left: 6rem;
+    font-weight: bold;
+    color: white;
+    font-style: italic;
+    letter-spacing: 0.2rem;
   }
 `;
 

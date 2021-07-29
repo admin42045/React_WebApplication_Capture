@@ -9,9 +9,13 @@ import goodtimes from "../img/goodtimes-small.png";
 
 import styled from "styled-components";
 
+// Add the Page  Animations
+import { motion } from "framer-motion";
+import { pageAnimation } from "../animation";
+
 const OurWork = () => {
   return (
-    <Work>
+    <Work variants={pageAnimation} initial="hidden" animate="show">
       <Movie>
         <h2>The Athlete</h2>
         <div className="line"></div>
@@ -35,15 +39,11 @@ const OurWork = () => {
           <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
-
-
-
-
     </Work>
   );
 };
 
-const Work = styled.div`
+const Work = styled(motion.div)`
   min-height: 100vh;
   overflow: hidden;
   padding: 5rem 10rem;
@@ -52,12 +52,11 @@ const Work = styled.div`
     padding: 1rem 0rem;
     color: #fff;
   }
-
 `;
 
 const Movie = styled.div`
   padding-bottom: 10rem;
- 
+
   .line {
     height: 0.2rem;
     background: #ccc;
